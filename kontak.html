@@ -53,11 +53,12 @@
       document.getElementById("formWA").addEventListener("submit", function(event) {
         event.preventDefault();
       var nama = document.getElementById("nama").value;
-      var pesan = document.getElementById("pesan").value:
+      var pesan = document.getElementById("pesan").value;
 
-      var noWA = 'Halo, saya${nama}.%0A${pesan}';
+     var noWA = '081553675279';
 
-        window.open('https://wa.me/${081553675279}?text=${teks}', "_blank);
+    // Buka URL WhatsApp
+    window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
       });
     </script>
 </body>
