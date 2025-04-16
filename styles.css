@@ -171,13 +171,13 @@ nav ul li a:hover {
 
 #fromWA input,
 #fromWA textarea {
-  width: 100%; /* Input dan textarea akan memenuhi lebar div */
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  box-sizing: border-box; /* Pastikan padding tidak menambah lebar elemen */
+  box-sizing: border-box; 
   font-size: 16px;
-  margin-bottom: 10px; /* Tambahkan jarak antar elemen */
+  margin-bottom: 10px;
 }
 
 #fromWA input:focus,
@@ -203,52 +203,52 @@ nav ul li a:hover {
 }
 
 #formWA {
-  background-color: #ffffff; /* Warna latar belakang form */
-  padding: 20px; /* Jarak dalam form */
-  border-radius: 10px; /* Sudut melengkung */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
-  max-width: 500px; /* Lebar maksimum form */
-  margin: 0 auto; /* Pusatkan form */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 #formWA label {
-  display: block; /* Label tampil dalam baris baru */
-  margin-bottom: 8px; /* Jarak bawah label */
-  font-weight: bold; /* Tebalkan teks label */
-  color: #333; /* Warna teks label */
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
 }
 
 #formWA input,
 #formWA textarea {
-  width: 100%; /* Lebar penuh */
-  padding: 10px; /* Jarak dalam input */
-  margin-bottom: 15px; /* Jarak bawah antar elemen */
-  border: 1px solid #ccc; /* Warna border */
-  border-radius: 5px; /* Sudut melengkung */
-  font-size: 16px; /* Ukuran font */
-  box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 #formWA input:focus,
 #formWA textarea:focus {
-  border-color: #250366; /* Warna border saat fokus */
-  outline: none; /* Hilangkan outline default */
-  box-shadow: 0 0 5px rgba(37, 3, 102, 0.5); /* Bayangan saat fokus */
+  border-color: #250366;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 3, 102, 0.5); 
 }
 
 #formWA button {
-  background-color: #250366; /* Warna tombol */
-  color: white; /* Warna teks tombol */
-  border: none; /* Hilangkan border */
-  padding: 12px 20px; /* Jarak dalam tombol */
-  border-radius: 5px; /* Sudut melengkung */
-  font-size: 16px; /* Ukuran font */
-  cursor: pointer; /* Ubah kursor menjadi pointer */
-  transition: background-color 0.3s ease; /* Animasi perubahan warna */
+  background-color: #250366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #formWA button:hover {
-  background-color: #4b0082; /* Warna tombol saat hover */
+  background-color: #4b0082;
 }
 
 
