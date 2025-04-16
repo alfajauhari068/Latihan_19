@@ -49,6 +49,7 @@
   <footer>
     &copy; 2025 Website Saya
   </footer>
+  <script>
    document.getElementById("formWA").addEventListener("submit", function(event) {
       event.preventDefault(); // Mencegah pengiriman form default
 
@@ -65,5 +66,6 @@
       // Buka URL WhatsApp
       window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
     });
+  </script>
 </body>
 </html>
