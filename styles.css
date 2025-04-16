@@ -165,33 +165,26 @@ nav ul li a:hover {
   padding: 30px 25px;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
+  width: 1600px;
+  max-width: 1600px;
 }
 
-#fromWA label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: #333;
-}
-
-#fromWa textarea {
-  width: 100%;
+#fromWA input,
+#fromWA textarea {
+  width: 100%; /* Input dan textarea akan memenuhi lebar div */
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  border-bottom: 20px;
-  box-sizing: border-box;
-  font-sizing: 16px;
+  box-sizing: border-box; /* Pastikan padding tidak menambah lebar elemen */
+  font-size: 16px;
+  margin-bottom: 10px; /* Tambahkan jarak antar elemen */
 }
 
-#fromWa input: focus,
-#formWa textarea: focus {
-  width: auto;
+#fromWA input:focus,
+#fromWA textarea:focus {
   border-color: #250366;
   outline: none;
-  box-shadow: 0 0 4px rgba(37, 211, 102, 0,3);
+  box-shadow: 0 0 4px rgba(37, 211, 102, 0.3);
 }
 
 #fromWA button {
@@ -207,6 +200,55 @@ nav ul li a:hover {
 
 #formWA button: hover{
   bacground-color: #lebe5d;
+}
+
+#formWA {
+  background-color: #ffffff; /* Warna latar belakang form */
+  padding: 20px; /* Jarak dalam form */
+  border-radius: 10px; /* Sudut melengkung */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+  max-width: 500px; /* Lebar maksimum form */
+  margin: 0 auto; /* Pusatkan form */
+}
+
+#formWA label {
+  display: block; /* Label tampil dalam baris baru */
+  margin-bottom: 8px; /* Jarak bawah label */
+  font-weight: bold; /* Tebalkan teks label */
+  color: #333; /* Warna teks label */
+}
+
+#formWA input,
+#formWA textarea {
+  width: 100%; /* Lebar penuh */
+  padding: 10px; /* Jarak dalam input */
+  margin-bottom: 15px; /* Jarak bawah antar elemen */
+  border: 1px solid #ccc; /* Warna border */
+  border-radius: 5px; /* Sudut melengkung */
+  font-size: 16px; /* Ukuran font */
+  box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
+}
+
+#formWA input:focus,
+#formWA textarea:focus {
+  border-color: #250366; /* Warna border saat fokus */
+  outline: none; /* Hilangkan outline default */
+  box-shadow: 0 0 5px rgba(37, 3, 102, 0.5); /* Bayangan saat fokus */
+}
+
+#formWA button {
+  background-color: #250366; /* Warna tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Hilangkan border */
+  padding: 12px 20px; /* Jarak dalam tombol */
+  border-radius: 5px; /* Sudut melengkung */
+  font-size: 16px; /* Ukuran font */
+  cursor: pointer; /* Ubah kursor menjadi pointer */
+  transition: background-color 0.3s ease; /* Animasi perubahan warna */
+}
+
+#formWA button:hover {
+  background-color: #4b0082; /* Warna tombol saat hover */
 }
 
 
