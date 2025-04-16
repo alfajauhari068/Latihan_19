@@ -30,14 +30,17 @@
     <div class="content">
       <div class="hero">
         
-      <h2 class="sub_title">Hubungi Kami</h2>
-      <p>Silahkan hubungi kami melalui informasi berikut.</p>
-
-      <ul>
-        <li><h5>Email:</h5> <a href="mailto:Alfa_web.com">Alfa_web.com</a></li>
-        <li><h5>Telepon:</h5> <a href="tel:+6281553675279">+62 815 5367 5279</a></li>
-        <li><h5>Alamat:</h5> Jl. Pathimura No. 20, Trenggalek</li>
-      </ul>
+     <main>
+       <h2 class="sub_title">Hubungi Kami Via WhatsApp</h2>
+     <from id=fromwa>
+       <label for="nama">Nama:</label>
+       <input type="text" id="nama" name="nama" required>
+       <label for="pesan">Pesan</label>
+       <textarea id="pesan" name="pesan" rous="5" required></textarea>
+       <button type="submit">Kirim ke WhatsApp</button>
+     </main>   
+      
+     </from>
       </div>
       </div>
      
@@ -46,5 +49,16 @@
   <footer>
     &copy; 2025 Website Saya
   </footer>
+    <script>
+      document.getElementById("formWA").addEventListener("submit", function(event) {
+        event.preventDefault();
+      var nama = document.getElementById("nama").value;
+      var pesan = document,getElementById("pesan")value:
+
+      var noWA = 'Halo, saya${nama}.%0A${pesan}';
+
+        window.open('https://wa.me/${noWA}?text=${teks}', "_blank);
+      });
+    </script>
 </body>
 </html>
