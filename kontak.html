@@ -49,19 +49,21 @@
   <footer>
     &copy; 2025 Website Saya
   </footer>
-    <script>
-      document.getElementById("formWA").addEventListener("submit", function(event) {
-        event.preventDefault();
+   document.getElementById("formWA").addEventListener("submit", function(event) {
+      event.preventDefault(); // Mencegah pengiriman form default
+
+      // Ambil nilai dari input
       var nama = document.getElementById("nama").value;
       var pesan = document.getElementById("pesan").value;
 
+      // Format teks pesan
       var teks = `Halo, saya ${nama}.%0A${pesan}`;
 
-     var noWA = '081553675279';
+      // Nomor WhatsApp tujuan (gunakan format internasional tanpa tanda "+" atau spasi)
+      var noWA = '6281553675279';
 
-    // Buka URL WhatsApp
-    window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
-      });
-    </script>
+      // Buka URL WhatsApp
+      window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
+    });
 </body>
 </html>
