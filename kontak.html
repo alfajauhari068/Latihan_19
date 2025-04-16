@@ -44,19 +44,19 @@
   </div>
   <script>
     document.getElementById("formWA").addEventListener("submit", function(event) {
-      event.preventDefault(); // Mencegah pengiriman form default
+      event.preventDefault();
 
-      // Ambil nilai dari input
+      
       var nama = document.getElementById("nama").value;
       var pesan = document.getElementById("pesan").value;
 
-      // Format teks pesan
+      
       var teks = `Halo, saya ${nama}.%0A${pesan}`;
 
-      // Nomor WhatsApp tujuan (gunakan format internasional tanpa tanda "+" atau spasi)
+
       var noWA = '6281553675279';
 
-      // Buka URL WhatsApp
+      
       window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
     });
   </script>
