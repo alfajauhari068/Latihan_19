@@ -188,6 +188,7 @@ nav ul li a:hover {
 
 #fromWa input: focus,
 #formWa textarea: focus {
+  width: 100%;
   border-color: #250366;
   outline: none;
   box-shadow: 0 0 4px rgba(37, 211, 102, 0,3);
