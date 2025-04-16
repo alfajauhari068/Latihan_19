@@ -42,11 +42,8 @@
       </div>
     </div>
   </div>
-  <footer>
-    &copy; 2025 Website Saya
-  </footer>
   <script>
-   document.getElementById("formWA").addEventListener("submit", function(event) {
+    document.getElementById("formWA").addEventListener("submit", function(event) {
       event.preventDefault(); // Mencegah pengiriman form default
 
       // Ambil nilai dari input
@@ -63,5 +60,8 @@
       window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
     });
   </script>
+  <footer>
+    &copy; 2025 Website Saya
+  </footer>
 </body>
 </html>
