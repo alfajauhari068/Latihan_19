@@ -159,6 +159,55 @@ nav ul li a:hover {
   font-size: small;
 }
 
+/* From Kontak */
+#FromWA {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+#FromWA label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+#fromWa textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  border-bottom: 20px;
+  box-sizing: border-box;
+  font-sizing: 16px;
+}
+
+#fromWa input: focus,
+#formWa textarea: focus {
+  border-color: #250366;
+  outline: none;
+  box-shadow: 0 0 4px rgba(37, 211, 102, 0,3);
+}
+
+#fromWA button {
+  background-color: #250366;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transation: background-color 0.3s ease;
+}
+
+#formWA button: hover{
+  bacground-color: #lebe5d;
+}
+
 
 footer {
   background-color: #006e63;
