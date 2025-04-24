@@ -20,13 +20,11 @@
   </nav>
   <div class="container">
     <div class="sidebar">
-      <h2>Menu Samping</h2>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </div>
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
     <div class="content">
       <div class="hero">
         <main>
@@ -44,19 +42,19 @@
   </div>
   <script>
     document.getElementById("formWA").addEventListener("submit", function(event) {
-      event.preventDefault();
+      event.preventDefault(); // Mencegah pengiriman form default
 
-      
+      // Ambil nilai dari input
       var nama = document.getElementById("nama").value;
       var pesan = document.getElementById("pesan").value;
 
-      
+      // Format teks pesan
       var teks = `Halo, saya ${nama}.%0A${pesan}`;
 
-
+      // Nomor WhatsApp tujuan (gunakan format internasional tanpa tanda "+" atau spasi)
       var noWA = '6281553675279';
 
-      
+      // Buka URL WhatsApp
       window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
     });
   </script>
