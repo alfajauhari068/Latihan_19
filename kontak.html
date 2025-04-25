@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Latihan-19</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="polkadot-bg">
   <header>
@@ -18,7 +19,7 @@
       <li><a href="kontak.html">Kontak</a></li>
     </ul>
   </nav>
-  <div class="container">
+  <div class="box">
     <div class="sidebar">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
@@ -42,19 +43,19 @@
   </div>
   <script>
     document.getElementById("formWA").addEventListener("submit", function(event) {
-      event.preventDefault(); // Mencegah pengiriman form default
+      event.preventDefault();
 
-      // Ambil nilai dari input
+     
       var nama = document.getElementById("nama").value;
       var pesan = document.getElementById("pesan").value;
 
-      // Format teks pesan
+      
       var teks = `Halo, saya ${nama}.%0A${pesan}`;
 
-      // Nomor WhatsApp tujuan (gunakan format internasional tanpa tanda "+" atau spasi)
+      
       var noWA = '6281553675279';
 
-      // Buka URL WhatsApp
+      
       window.open(`https://wa.me/${noWA}?text=${teks}`, "_blank");
     });
   </script>
