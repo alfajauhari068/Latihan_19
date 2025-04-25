@@ -56,7 +56,7 @@ nav ul li a:hover {
   background-color: #555;
 }
 
-.container {
+.box {
   display: flex;
   flex-direction: row;
   gap: 20px; 
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 div.content {
   width: 75%;
-  padding: 15px; 
+  padding: 40px; 
   background-color: #ffffff; 
   border-radius: 5px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
@@ -133,7 +133,7 @@ div.content {
 
 .hero {
   padding: 20px;
-  background-color: #00000056;
+  background-color: #0066ffae;
   border-start-start-radius: 20px;
   border-start-end-radius: 20px;
   box-shadow: #000000 0px 0px 10px;
@@ -151,39 +151,38 @@ div.content {
   }
   
 
-.table-container {
+.table-news {
   background-color:#00000087;
   border-start-start-radius: 20px;
   border-start-end-radius: 20px;
   padding: 10px;
   margin-bottom: 20px;
 }
-.table-container table {
+.table-news table {
   width: 100%;
   
 }
 
-.table-container th, .table-container td {
+.table-news th, .table-news td {
   text-align: center;
 }
 
-.table-container th {
+.table-news th {
   color: white;
   font-weight: 1000;
   padding: 10px;
   margin: 20px;
 }
 
-.table-container td {
+.table-news td {
   background-color: #0ae6d79a;
-  border-radius: 20px;
+  border-radius: 5px;
   font-weight: 800;
   color: white;
   padding: 10px;
-  margin: 20px;
 }
 
-a .table::hover {
+a .berita::hover {
   background-color: #0ae6d79a;
   text-decoration: none;
 }
@@ -241,11 +240,11 @@ a .table::hover {
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
-  transation: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
-#formWA button: hover{
-  bacground-color: #lebe5d;
+#formWA button:hover {
+  background-color: #4b0082;
 }
 
 #formWA {
@@ -301,9 +300,8 @@ footer {
   color: white;
   padding: 10px 0;
   text-align: center;
-  position: fixed;
-  margin top: 20px;
+  position: relative;
+  margin-top: 20px;
   bottom: 0;
   width: 100%;
 }
-
