@@ -291,7 +291,7 @@ a .table::hover {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
+}
 #formWA button:hover {
   background-color: #4b0082;
 }
